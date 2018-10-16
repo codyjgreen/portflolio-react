@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import faker from 'faker';
 export default class Testimonials extends Component {
   render() {
     let resumeData = this.props.resumeData;
@@ -13,14 +14,16 @@ export default class Testimonials extends Component {
               <div className="flexslider">
                 <ul className="slides">
                   {
-                    resumeData.testimonials && resumeData.testimonials.map((item)=>{
-                      return(
+                    resumeData.testimonials && resumeData.testimonials.map((item) => {
+                      return (
                         <li>
                           <blockquote>
                             <p>
-                            {item.description}
+                              {faker.hacker.phrase()}
+                              {/* {item.description} */}
                             </p>
-                            <cite>{item.name}</cite>
+                            {faker.name.firstName()}
+                            {/* <cite>{item.name}</cite> */}
                           </blockquote>
                         </li>
                       )
@@ -32,6 +35,6 @@ export default class Testimonials extends Component {
           </div> {/* row ends */}
         </div>  {/* text-container ends */}
       </section>
-        );
+    );
   }
 }

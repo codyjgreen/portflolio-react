@@ -1,3 +1,5 @@
+import faker from 'faker';
+
 let resumeData = {
   "imagebaseurl": "https://techonoeticsclub.github.io/",
   "name": "Cody Green",
@@ -154,36 +156,65 @@ let resumeData = {
   ],
   "portfolio": [
     {
-      "name": "project1",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
+      "name": "Nouri Meals",
+      "description": "React application built at AngelHack Seattle. Still iterating on it with weekly standups and working toward a fully functioning startup.",
+      "imgurl": "images/portfolio/phone.jpg",
+      "deployedUrl": "https://nourimeals.herokuapp.com/",
+      "githubUrl": "https://github.com/nourimeals/nouri"
     },
     {
-      "name": "project2",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project.jpg"
+      "name": "Timeline Helper",
+      "description": "React application ",
+      "imgurl": "images/portfolio/phone.jpg",
+      // "deployedUrl": "https://nourimeals.herokuapp.com/",
+      "githubUrl": "https://github.com/TimeLineHelper/calendar-app"
     },
     {
-      "name": "project3",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/project2.png"
+      "name": "Soundwave",
+      "description": "node application.",
+      "imgurl": "images/portfolio/phone.jpg",
+      "deployedUrl": "https://soundwavecf.herokuapp.com/home.html",
+      "githubUrl": "https://github.com/soundwave-cf/soundwave"
     },
     {
-      "name": "project4",
-      "description": "mobileapp",
-      "imgurl": "images/portfolio/phone.jpg"
-    }
+      "name": "my media db",
+      "description": "React application built at AngelHack Seattle. Still iterating on it with weekly standups and working toward a fully functioning startup.",
+      "imgurl": "images/portfolio/phone.jpg",
+      "deployedUrl": "https://github.com/my-media-db/media-client",
+      "githubUrl": "https://github.com/my-media-db/media-server"
+    },
+
   ],
-  // "testimonials": [
-  //   {
-  //     "description": "This is a sample testimonial",
-  //     "name": "Some technical guy"
-  //   },
-  //   {
-  //     "description": "This is a sample testimonial",
-  //     "name": "Some technical guy"
-  //   }
-  // ]
+  "testimonials": [
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    },
+    {
+      "description": "This is a sample testimonial",
+      "name": "Some technical guy"
+    }
+  ]
 }
 
 export default resumeData
