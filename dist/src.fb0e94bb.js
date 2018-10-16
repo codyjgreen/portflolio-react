@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({123:[function(require,module,exports) {
+})({97:[function(require,module,exports) {
 /*
 object-assign
 (c) Sindre Sorhus
@@ -189,7 +189,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 	return to;
 };
-},{}],127:[function(require,module,exports) {
+},{}],102:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -203,7 +203,7 @@ var ReactPropTypesSecret = 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED';
 
 module.exports = ReactPropTypesSecret;
 
-},{}],124:[function(require,module,exports) {
+},{}],98:[function(require,module,exports) {
 /**
  * Copyright (c) 2013-present, Facebook, Inc.
  *
@@ -282,7 +282,7 @@ function checkPropTypes(typeSpecs, values, location, componentName, getStack) {
 }
 
 module.exports = checkPropTypes;
-},{"./lib/ReactPropTypesSecret":127}],120:[function(require,module,exports) {
+},{"./lib/ReactPropTypesSecret":102}],85:[function(require,module,exports) {
 /** @license React v16.5.2
  * react.development.js
  *
@@ -2000,7 +2000,7 @@ if ('development' !== "production") {
     module.exports = react;
   })();
 }
-},{"object-assign":123,"prop-types/checkPropTypes":124}],106:[function(require,module,exports) {
+},{"object-assign":97,"prop-types/checkPropTypes":98}],23:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -2008,7 +2008,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/react.development.js');
 }
-},{"./cjs/react.development.js":120}],129:[function(require,module,exports) {
+},{"./cjs/react.development.js":85}],100:[function(require,module,exports) {
 /** @license React v16.5.2
  * schedule.development.js
  *
@@ -2429,7 +2429,7 @@ if ('development' !== "production") {
     exports.unstable_cancelScheduledWork = unstable_cancelScheduledWork;
   })();
 }
-},{}],125:[function(require,module,exports) {
+},{}],96:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -2437,7 +2437,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/schedule.development.js');
 }
-},{"./cjs/schedule.development.js":129}],128:[function(require,module,exports) {
+},{"./cjs/schedule.development.js":100}],101:[function(require,module,exports) {
 /** @license React v16.5.2
  * schedule-tracing.development.js
  *
@@ -2863,7 +2863,7 @@ if ('development' !== "production") {
     exports.unstable_unsubscribe = unstable_unsubscribe;
   })();
 }
-},{}],126:[function(require,module,exports) {
+},{}],99:[function(require,module,exports) {
 'use strict';
 
 if ('development' === 'production') {
@@ -2871,7 +2871,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/schedule-tracing.development.js');
 }
-},{"./cjs/schedule-tracing.development.js":128}],121:[function(require,module,exports) {
+},{"./cjs/schedule-tracing.development.js":101}],86:[function(require,module,exports) {
 /** @license React v16.5.2
  * react-dom.development.js
  *
@@ -21110,7 +21110,7 @@ if ('development' !== "production") {
     module.exports = reactDom;
   })();
 }
-},{"react":106,"object-assign":123,"prop-types/checkPropTypes":124,"schedule":125,"schedule/tracing":126}],107:[function(require,module,exports) {
+},{"react":23,"object-assign":97,"prop-types/checkPropTypes":98,"schedule":96,"schedule/tracing":99}],24:[function(require,module,exports) {
 'use strict';
 
 function checkDCE() {
@@ -21146,7 +21146,7 @@ if ('development' === 'production') {
 } else {
   module.exports = require('./cjs/react-dom.development.js');
 }
-},{"./cjs/react-dom.development.js":121}],122:[function(require,module,exports) {
+},{"./cjs/react-dom.development.js":86}],95:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -21176,7 +21176,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],111:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -21207,13 +21207,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":122}],108:[function(require,module,exports) {
+},{"./bundle-url":95}],13:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":111}],112:[function(require,module,exports) {
+},{"_css_loader":22}],78:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21382,7 +21382,7 @@ var Header = function (_Component) {
 }(_react.Component);
 
 exports.default = Header;
-},{"react":106}],113:[function(require,module,exports) {
+},{"react":23}],79:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21484,7 +21484,7 @@ var About = function (_Component) {
 }(_react.Component);
 
 exports.default = About;
-},{"react":106}],114:[function(require,module,exports) {
+},{"react":23}],80:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21693,7 +21693,7 @@ var Resume = function (_Component) {
 }(_react.Component);
 
 exports.default = Resume;
-},{"react":106}],115:[function(require,module,exports) {
+},{"react":23}],81:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21788,7 +21788,7 @@ var Porfolio = function (_Component) {
 }(_react.Component);
 
 exports.default = Porfolio;
-},{"react":106}],116:[function(require,module,exports) {
+},{"react":23}],82:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21890,7 +21890,7 @@ var Testimonials = function (_Component) {
 }(_react.Component);
 
 exports.default = Testimonials;
-},{"react":106}],117:[function(require,module,exports) {
+},{"react":23}],83:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -21966,7 +21966,7 @@ var ContactUs = function (_Component) {
 }(_react.Component);
 
 exports.default = ContactUs;
-},{"react":106}],118:[function(require,module,exports) {
+},{"react":23}],84:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22024,25 +22024,7 @@ var Footer = function (_Component) {
                 );
               })
             ),
-            _react2.default.createElement(
-              "ul",
-              { className: "copyright" },
-              _react2.default.createElement(
-                "li",
-                null,
-                "\xA9 Copyright 2014 CeeVee"
-              ),
-              _react2.default.createElement(
-                "li",
-                null,
-                "Design by ",
-                _react2.default.createElement(
-                  "a",
-                  { title: "Styleshout", href: "http://www.styleshout.com/" },
-                  "Styleshout"
-                )
-              )
-            )
+            _react2.default.createElement("ul", { className: "copyright" })
           ),
           _react2.default.createElement(
             "div",
@@ -22062,7 +22044,7 @@ var Footer = function (_Component) {
 }(_react.Component);
 
 exports.default = Footer;
-},{"react":106}],119:[function(require,module,exports) {
+},{"react":23}],25:[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -22205,7 +22187,7 @@ var resumeData = {
 };
 
 exports.default = resumeData;
-},{}],109:[function(require,module,exports) {
+},{}],18:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22288,7 +22270,7 @@ var App = function (_Component) {
 }(_react.Component);
 
 exports.default = App;
-},{"react":106,"./components/header/header":112,"./components/about/about":113,"./components/resume/resume":114,"./components/portfolio/portfolio":115,"./components/testimonials/testimonials":116,"./components/contactus/contactus":117,"./components/footer/footer":118,"./resumeData":119}],110:[function(require,module,exports) {
+},{"react":23,"./components/header/header":78,"./components/about/about":79,"./components/resume/resume":80,"./components/portfolio/portfolio":81,"./components/testimonials/testimonials":82,"./components/contactus/contactus":83,"./components/footer/footer":84,"./resumeData":25}],19:[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -22396,7 +22378,7 @@ function unregister() {
     });
   }
 }
-},{}],99:[function(require,module,exports) {
+},{}],2:[function(require,module,exports) {
 'use strict';
 
 var _react = require('react');
@@ -22421,7 +22403,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 _reactDom2.default.render(_react2.default.createElement(_App2.default, null), document.getElementById('root'));
 (0, _registerServiceWorker2.default)();
-},{"react":106,"react-dom":107,"./index.css":108,"./App":109,"./registerServiceWorker":110}],151:[function(require,module,exports) {
+},{"react":23,"react-dom":24,"./index.css":13,"./App":18,"./registerServiceWorker":19}],136:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -22450,7 +22432,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55089' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53902' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -22591,5 +22573,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[151,99], null)
+},{}]},{},[136,2], null)
 //# sourceMappingURL=/src.fb0e94bb.map

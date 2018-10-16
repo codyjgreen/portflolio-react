@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({102:[function(require,module,exports) {
+})({9:[function(require,module,exports) {
 var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; };
 
 /*
@@ -267,7 +267,7 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/GPL-license.txt
     $[m]("refresh");
   });
 })(jQuery, "waypoint", "waypoints", window);
-},{}],143:[function(require,module,exports) {
+},{}],103:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -296,7 +296,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55089' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '53902' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -437,5 +437,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[143,102], null)
+},{}]},{},[103,9], null)
 //# sourceMappingURL=/waypoints.7fb8e0a2.map
