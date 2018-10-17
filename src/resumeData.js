@@ -158,7 +158,7 @@ let resumeData = {
     {
       "name": "Nouri Meals",
       "description": "React application built at AngelHack Seattle. Still iterating on it with weekly standups and working toward a fully functioning startup.",
-      "imgurl": "images/portfolio/phone.jpg",
+      "imgurl": "../public/images/portfolio/phone.jpg",
       "deployedUrl": "https://nourimeals.herokuapp.com/",
       "githubUrl": "https://github.com/nourimeals/nouri"
     },

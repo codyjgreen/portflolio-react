@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({98:[function(require,module,exports) {
+})({33:[function(require,module,exports) {
 var bundleURL = null;
 function getBundleURLCached() {
   if (!bundleURL) {
@@ -128,7 +128,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],25:[function(require,module,exports) {
+},{}],22:[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -159,13 +159,13 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":98}],6:[function(require,module,exports) {
+},{"./bundle-url":33}],10:[function(require,module,exports) {
 
         var reloadCSS = require('_css_loader');
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"./../images/background-beautiful-beauty-296890.jpg":18,"./../images/overlay-bg.png":20,"./../images/aerial-shot-background-conifer-757170.jpg":19,"_css_loader":25}],1154:[function(require,module,exports) {
+},{"./../images/background-beautiful-beauty-296890.jpg":18,"./../images/overlay-bg.png":19,"./../images/aerial-shot-background-conifer-757170.jpg":20,"_css_loader":22}],1088:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -194,7 +194,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61981' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '55699' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -335,7 +335,7 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}],1156:[function(require,module,exports) {
+},{}],1106:[function(require,module,exports) {
 var getBundleURL = require('./bundle-url').getBundleURL;
 
 function loadBundlesLazy(bundles) {
@@ -416,6 +416,6 @@ LazyPromise.prototype.catch = function (onError) {
   if (this.promise === null) this.promise = new Promise(this.executor);
   return this.promise.catch(onError);
 };
-},{"./bundle-url":98}],0:[function(require,module,exports) {
-var b=require(1156);b.load([["background-beautiful-beauty-296890.6aba2f20.jpg",18],["overlay-bg.1c7e4fad.png",20],["aerial-shot-background-conifer-757170.2cea1e45.jpg",19]]);
-},{}]},{},[1154,0], null)
+},{"./bundle-url":33}],0:[function(require,module,exports) {
+var b=require(1106);b.load([["background-beautiful-beauty-296890.6aba2f20.jpg",18],["overlay-bg.1c7e4fad.png",19],["aerial-shot-background-conifer-757170.2cea1e45.jpg",20]]);
+},{}]},{},[1088,0], null)

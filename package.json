@@ -1,8 +1,11 @@
 {
   "scripts": {
-    "watch": "parcel --open index.html",
-    "start": "parcel index.html"
+    "start": "parcel index.html --open ",
+    "build": "parcel build index.html --public-url ./",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://codyjgreen.github.io/portflolio-react/",
   "dependencies": {
     "babel-plugin-autobind-class-methods": "^5.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
