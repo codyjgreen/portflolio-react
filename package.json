@@ -3,7 +3,7 @@
     "start": "parcel index.html --open ",
     "build": "parcel build index.html --public-url /portfolio-react/",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages-deploy -- 'new build'"
   },
   "homepage": "https://codyjgreen.github.io/portflolio-react/",
   "dependencies": {
@@ -21,6 +21,14 @@
     "react-scripts": "^2.0.5"
   },
   "devDependencies": {
-    "babel-core": "^6.26.3"
+    "babel-core": "^6.26.3",
+    "gh-pages-deploy": "^0.5.0"
+  },
+  "gh-pages-deploy": {
+    "commit": "a custom commit message",
+    "post": [
+      "clean-source"
+    ],
+    "noprompt": false
   }
 }
