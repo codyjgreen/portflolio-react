@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "parcel index.html --open ",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url /portfolio-react/",
     "predeploy": "yarn build",
     "deploy": "gh-pages -d dist"
   },
