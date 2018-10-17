@@ -1,7 +1,7 @@
 import faker from 'faker';
 
 let resumeData = {
-  "imagebaseurl": "https://techonoeticsclub.github.io/",
+  "imagebaseurl": "https://codyjgreen.github.io/portflolio-react/",
   "name": "Cody Green",
   "role": "Software Developer",
   "emailid": "codyjeromegreen@gmail.com",

@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "watch": "parcel --open index.html"
+  },
   "dependencies": {
     "babel-plugin-autobind-class-methods": "^5.0.1",
     "babel-plugin-transform-class-properties": "^6.24.1",
@@ -10,7 +13,8 @@
     "fontello": "^0.5.0",
     "fonts.css": "^2.0.0",
     "react": "^16.0.0",
-    "react-dom": "^16.5.2"
+    "react-dom": "^16.5.2",
+    "react-scripts": "^2.0.5"
   },
   "devDependencies": {
     "babel-core": "^6.26.3"
