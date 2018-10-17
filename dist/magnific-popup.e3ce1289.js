@@ -98,7 +98,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
 
   // Override the current require with this new one
   return newRequire;
-})({11:[function(require,module,exports) {
+})({13:[function(require,module,exports) {
 // Magnific Popup v0.9.9 by Dmitry Semenov
 // http://bit.ly/magnific-popup#build=inline+image+retina+imagezoom+fastclick
 (function (a) {
@@ -406,7 +406,7 @@ parcelRequire = (function (modules, cache, entry, globalName) {
     };
   }(), B();
 })(window.jQuery || window.Zepto);
-},{}],1174:[function(require,module,exports) {
+},{}],1154:[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 
@@ -435,7 +435,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = '' || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + '64740' + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + '61981' + '/');
   ws.onmessage = function (event) {
     var data = JSON.parse(event.data);
 
@@ -576,5 +576,5 @@ function hmrAccept(bundle, id) {
     return hmrAccept(global.parcelRequire, id);
   });
 }
-},{}]},{},[1174,11], null)
+},{}]},{},[1154,13], null)
 //# sourceMappingURL=/magnific-popup.e3ce1289.map

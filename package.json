@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "watch": "parcel --open index.html"
+    "watch": "parcel --open index.html",
+    "start": "parcel index.html"
   },
   "dependencies": {
     "babel-plugin-autobind-class-methods": "^5.0.1",
