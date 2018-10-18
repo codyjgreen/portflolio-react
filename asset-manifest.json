@@ -1,13 +1,14 @@
 {
-  "main.css": "/portflolio-react/static/css/main.4032a9fe.chunk.css",
-  "main.js": "/portflolio-react/static/js/main.4a9cfc43.chunk.js",
-  "main.js.map": "/portflolio-react/static/js/main.4a9cfc43.chunk.js.map",
-  "static/js/1.30075c91.chunk.js": "/portflolio-react/static/js/1.30075c91.chunk.js",
-  "static/js/1.30075c91.chunk.js.map": "/portflolio-react/static/js/1.30075c91.chunk.js.map",
+  "main.css": "/portflolio-react/static/css/main.d247a16a.chunk.css",
+  "main.js": "/portflolio-react/static/js/main.8c2b9110.chunk.js",
+  "main.js.map": "/portflolio-react/static/js/main.8c2b9110.chunk.js.map",
+  "static/js/1.8502c415.chunk.js": "/portflolio-react/static/js/1.8502c415.chunk.js",
+  "static/js/1.8502c415.chunk.js.map": "/portflolio-react/static/js/1.8502c415.chunk.js.map",
   "runtime~main.js": "/portflolio-react/static/js/runtime~main.eb5ce44d.js",
   "runtime~main.js.map": "/portflolio-react/static/js/runtime~main.eb5ce44d.js.map",
-  "static/css/main.4032a9fe.chunk.css.map": "/portflolio-react/static/css/main.4032a9fe.chunk.css.map",
+  "static/css/main.d247a16a.chunk.css.map": "/portflolio-react/static/css/main.d247a16a.chunk.css.map",
+  "static/media/layout.css": "/portflolio-react/static/media/background-beautiful-beauty-296890.8d9b4530.jpg",
   "index.html": "/portflolio-react/index.html",
-  "precache-manifest.e6c1ee780e2679ae6863350fbd5c142d.js": "/portflolio-react/precache-manifest.e6c1ee780e2679ae6863350fbd5c142d.js",
+  "precache-manifest.53c90c0242b41f487c385e078b7bb3ed.js": "/portflolio-react/precache-manifest.53c90c0242b41f487c385e078b7bb3ed.js",
   "service-worker.js": "/portflolio-react/service-worker.js"
 }
