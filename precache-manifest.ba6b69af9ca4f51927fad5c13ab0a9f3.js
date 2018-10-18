@@ -12,19 +12,19 @@ self.__precacheManifest = [
     "url": "/portflolio-react/static/js/runtime~main.eb5ce44d.js"
   },
   {
-    "revision": "804d5db4ede648d11f85",
-    "url": "/portflolio-react/static/js/main.804d5db4.chunk.js"
+    "revision": "58d1818edf45a116cd8a",
+    "url": "/portflolio-react/static/js/main.58d1818e.chunk.js"
   },
   {
     "revision": "8502c415a6dbf6d05fc0",
     "url": "/portflolio-react/static/js/1.8502c415.chunk.js"
   },
   {
-    "revision": "804d5db4ede648d11f85",
+    "revision": "58d1818edf45a116cd8a",
     "url": "/portflolio-react/static/css/main.d247a16a.chunk.css"
   },
   {
-    "revision": "e2b7b91a1881fa781f55006ccfc72a88",
+    "revision": "75d50262e751facf90af1d03999bc026",
     "url": "/portflolio-react/index.html"
   }
 ];
